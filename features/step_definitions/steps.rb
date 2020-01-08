@@ -7,6 +7,16 @@ module Enjoeat
 			'Dobradinha'
 		elsif dia == 'quarta-feira'
 			'Feijoada'
+		elsif dia == 'quinta-feira'
+			'Macarronada'
+		elsif dia == 'sexta-feira'
+			'Peixada'
+		elsif dia == 'sábado'
+			'Veja o cardápio'
+		elsif dia == 'domingo'
+			'Fechado'
+		else 
+			'Dia inválido'
 		end
 	end
 end
